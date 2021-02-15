@@ -1,0 +1,112 @@
+body {
+    display: flex;
+}
+
+#funda {
+    background-color: lightgray;
+    width: 400px;
+    height: 500px;
+    padding: 12px;
+    margin-right: 20px;
+    border: solid 5px black;
+
+}
+
+label {
+    padding: 10px;
+    color: grey;
+    font-family: "MuseoModerno";
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+#screen {
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 40px;
+    padding: 5px;
+    font-family: "Press Start 2P";
+   
+    
+}
+
+#clean-buttons {
+    display: flex;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.clear {
+    background-color: #FB0606;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+}
+
+.right {
+    margin-right: 10px;
+}
+
+#zone {
+    display: flex;
+    height: 350px;
+    width: 400px;
+
+
+}
+
+#numbers-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding: 20px;
+    
+
+
+}
+
+.number {
+
+
+    width: 80px;
+    height: 60px;
+    box-shadow: gray;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+}
+
+.actions {
+    width: 60px;
+    height: 67px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.75);
+    
+}
+
+#operations-buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    transform: translateY(18px) translateX(-18px);
+
+}
